@@ -1,9 +1,9 @@
-import {$} from '../../core/dom';
+import {$} from '@core/dom'
 
 export class Excel {
   constructor(selector, options) {
-    this.$el = $(selector);
-    this.components = options.components || [];
+    this.$el = $(selector)
+    this.components = options.components || []
   }
 
   getRoot() {
